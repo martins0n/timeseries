@@ -1,0 +1,103 @@
+[
+    {
+        "library": "darts",
+        "link": "https://github.com/unit8co/darts",
+        "status": "active",
+        "summary": "- Darts is a Python library for user-friendly forecasting and anomaly detection on time series.\n- It offers a variety of models, from classics such as ARIMA to deep neural networks.\n- The library supports both univariate and multivariate time series and models, and provides extensive anomaly detection capabilities.",
+        "tasks": [
+            "forecasting",
+            "anomaly detection",
+            "feature engineering"
+        ]
+    },
+    {
+        "library": "etna",
+        "link": "https://github.com/etna-team/etna",
+        "status": "active",
+        "summary": "- ETNA is an easy-to-use time series forecasting framework that includes built-in toolkits for time series preprocessing, feature generation, a variety of predictive models, models combination methods, and smart backtesting.\n- It is the first python open source framework of Tinkoff.ru Artificial Intelligence Center and is designed to make working with time series simple, productive, and fun.\n- The library provides a quickstart guide, installation instructions, tutorials, documentation, and a community for support and discussion.",
+        "tasks": [
+            "forecasting",
+            "classification",
+            "feature engineering",
+            "eda"
+        ]
+    },
+    {
+        "library": "gluonts",
+        "link": "https://github.com/awslabs/gluonts",
+        "status": "active",
+        "summary": "- GluonTS is a Python package for probabilistic time series modeling, focusing on deep learning based models.\n- It supports both PyTorch and MXNet frameworks.\n- GluonTS provides easy installation via pip and offers extensive documentation and examples for users to get started quickly.",
+        "tasks": [
+            "forecasting"
+        ]
+    },
+    {
+        "library": "kats",
+        "link": "https://github.com/facebookresearch/Kats",
+        "status": "last update 2022",
+        "summary": "- Kats is a toolkit for time series analysis, providing various functionalities such as forecasting, anomaly detection, and feature extraction.\n- It offers easy-to-use APIs and supports popular models like Prophet for forecasting and CUSUM for detection.\n- Kats is released by Facebook's Infrastructure Data Science team and is available for download on PyPI.",
+        "tasks": [
+            "forecasting",
+            "anomaly detection"
+        ]
+    },
+    {
+        "library": "orbit",
+        "link": "https://github.com/uber/orbit",
+        "status": "active",
+        "summary": "- Orbit is a Python package for Bayesian time series forecasting and inference.\n- It provides a familiar and intuitive initialize-fit-predict interface for time series tasks.\n- It supports concrete implementations for models such as Exponential Smoothing, Local Global Trend, Damped Local Trend, and Kernel Time-based Regression.",
+        "tasks": [
+            "forecasting"
+        ]
+    },
+    {
+        "library": "prophet",
+        "link": "https://github.com/facebook/prophet",
+        "status": "active",
+        "summary": "- Prophet is an open-source library for forecasting time series data based on an additive model with non-linear trends, seasonal effects, and holiday effects.\n- It is robust to missing data and shifts in the trend, and handles outliers well.\n- Prophet is available for both R and Python, and can be installed from CRAN and PyPI, respectively.",
+        "tasks": [
+            "forecasting"
+        ]
+    },
+    {
+        "library": "sktime",
+        "link": "https://github.com/sktime/sktime",
+        "status": "active",
+        "summary": "- sktime is a Python library for time series analysis that provides a unified interface for multiple time series learning tasks.\n- It includes algorithms and tools for time series classification, regression, clustering, annotation, and forecasting.\n- sktime aims to enhance the interoperability and usability of the time series analysis ecosystem by providing a unified interface and interfaces to related libraries.",
+        "tasks": [
+            "forecasting",
+            "classification",
+            "feature engineering",
+            "eda"
+        ]
+    },
+    {
+        "library": "temporian",
+        "link": "https://github.com/google/temporian",
+        "status": "active",
+        "summary": "- Temporian is an open-source Python library for preprocessing and feature engineering temporal data for machine learning applications.\n- It operates natively on various forms of temporal data, including multivariate time-series, multi-index time-series, and non-uniformly sampled data.\n- It avoids future leakage, which occurs when a model is exposed to data from future events during training, by default.",
+        "tasks": [
+            "feature engineering"
+        ]
+    },
+    {
+        "library": "thuml",
+        "link": "https://github.com/thuml/Time-Series-Library",
+        "status": "active",
+        "summary": "- TSlib is an open-source library for deep time series analysis.\n- The library covers five mainstream tasks: long- and short-term forecasting, imputation, anomaly detection, and classification.\n- The library provides a code base to evaluate advanced deep time series models or develop your own model.",
+        "tasks": [
+            "forecasting",
+            "anomaly detection",
+            "classification"
+        ]
+    },
+    {
+        "library": "tsfresh",
+        "link": "https://github.com/blue-yonder/tsfresh",
+        "status": "active",
+        "summary": "- The tsfresh library is a Python package that provides systematic time-series feature extraction by combining algorithms from statistics, time-series analysis, signal processing, and nonlinear dynamics with a robust feature selection algorithm.\n- It automatically extracts hundreds of features from time series data, including basic characteristics such as the number of peaks and more complex features like time reversal symmetry statistics.\n- The library includes a built-in filtering procedure to remove irrelevant features, ensuring that only the most important features are used for machine learning tasks.",
+        "tasks": [
+            "feature engineering"
+        ]
+    }
+]

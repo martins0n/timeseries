@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "timeseries"
+version = "0.1.0"
+description = ""
+authors = ["martins0n <33594071+martins0n@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+pandas = "^2.1.1"
+openai = "^0.28.1"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+tabulate = "^0.9.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
