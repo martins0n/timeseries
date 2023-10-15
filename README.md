@@ -13,3 +13,11 @@
 | [thuml](https://github.com/thuml/Time-Series-Library) | active | <ul><li> TSlib is an open-source library for deep time series analysis.</li><li> The library covers five mainstream tasks: long- and short-term forecasting, imputation, anomaly detection, and classification.</li><li> The library provides a code base to evaluate advanced deep time series models or develop your own model.</li></ul> | forecasting, anomaly detection, classification |
 | [tsfresh](https://github.com/blue-yonder/tsfresh) | active | <ul><li> The tsfresh library is a Python package that provides systematic time-series feature extraction by combining algorithms from statistics, time-series analysis, signal processing, and nonlinear dynamics with a robust feature selection algorithm.</li><li> It automatically extracts hundreds of features from time series data, including basic characteristics such as the number of peaks and more complex features like time reversal symmetry statistics.</li><li> The library includes a built-in filtering procedure to remove irrelevant features, ensuring that only the most important features are used for machine learning tasks.</li></ul> | feature engineering |
 
+## Global models and transfer learning
+
+### Papers
+
+| link | description |
+| ---- | ----------- |
+| [TimeGPT-1](https://arxiv.org/abs/2310.03589) | ![Alt text](static/global_models_timegpt.png) |
+| [Large Language Models Are Zero-Shot Time Series Forecasters](https://arxiv.org/pdf/2310.07820.pdf) | By encoding time series as a string of numerical digits, we can frame time series forecasting as next-token prediction in text. Developing this approach, we find that large language models (LLMs) such as GPT-3 and LLaMA-2 can surprisingly zero-shot extrapolate time series at a level comparable to or exceeding the performanceof purpose-built time series models trained on the downstream tasks |
