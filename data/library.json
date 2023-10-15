@@ -42,6 +42,15 @@
         ]
     },
     {
+        "library": "neuralforecast",
+        "link": "https://github.com/Nixtla/neuralforecast",
+        "status": "active",
+        "summary": "- Nixtla's NeuralForecast library offers a collection of neural forecasting models focused on usability and robustness.\n- It includes classic networks like MLP and RNN, as well as novel contributions like NBEATS and TFT.\n- The library provides a unified interface for fitting and predicting time series data, and supports features such as exogenous variables, interpretability, and probabilistic forecasting.",
+        "tasks": [
+            "forecasting"
+        ]
+    },
+    {
         "library": "orbit",
         "link": "https://github.com/uber/orbit",
         "status": "active",
@@ -69,6 +78,16 @@
             "classification",
             "feature engineering",
             "eda"
+        ]
+    },
+    {
+        "library": "statsforecast",
+        "link": "https://github.com/Nixtla/statsforecast",
+        "status": "active",
+        "summary": "- Nixtla's StatsForecast library offers a collection of widely used univariate time series forecasting models, including automatic ARIMA, ETS, CES, and Theta modeling.\n- The library is optimized for high performance using numba and includes a large battery of benchmarking models.\n- StatsForecast is faster and more accurate than existing Python alternatives for statistical models, making it suitable for forecasting in production environments or as benchmarks.",
+        "tasks": [
+            "forecasting",
+            "anomaly detection"
         ]
     },
     {
